@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const checks = document.querySelectorAll('input[type="checkbox"]');
 
-  const concluidos = [1, 2, 3];
+  const concluidos = [1, 2, 3, 4];
 
   checks.forEach((checkbox) => {
     const id = parseInt(checkbox.id, 10);
